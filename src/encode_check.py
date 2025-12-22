@@ -1,12 +1,12 @@
 # Импорт переменных из файла src/config.py
-from src.config import ENCODINGS, FILE_LOLLIPOPS
+from src.config import ENCODINGS, FILE_LOLLIPOPS, FILE_ECONOM
 
 
 # цикл для определения кодировки у файла
 count_enc = 0
 for enc in ENCODINGS:
     try:
-        FILE_LOLLIPOPS.read_text(encoding=enc)
+        FILE_ECONOM.read_text(encoding=enc)
         enc_show = enc
         break
     except UnicodeDecodeError:
