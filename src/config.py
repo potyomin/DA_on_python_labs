@@ -6,6 +6,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / 'data'
 FILE_LOLLIPOPS = DATA_DIR / 'Леденцы.dat'
 FILE_ECONOM = DATA_DIR / 'Econom_Cities_data.csv'
+FILE_DIGIT = DATA_DIR / 'digit.dat'
+
 # список с кодировками
 ENCODINGS = [
     # универсальные
