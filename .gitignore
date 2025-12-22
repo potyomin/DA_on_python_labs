@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+# виртуальное окружение
+.venv/
+
+# PyCharm
+.idea/
+
+# локальные данные
+data/
+!data/.gitkeep
+
+src/test.py
