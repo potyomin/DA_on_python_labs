@@ -7,6 +7,7 @@ DATA_DIR = ROOT / 'data'
 FILE_LOLLIPOPS = DATA_DIR / 'Леденцы.dat'
 FILE_ECONOM = DATA_DIR / 'Econom_Cities_data.csv'
 FILE_DIGIT = DATA_DIR / 'digit.dat'
+FILE_BEVERAGE = DATA_DIR / 'beverage_r.csv'
 
 # список с кодировками
 ENCODINGS = [
